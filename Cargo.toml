@@ -1,0 +1,11 @@
+[package]
+name = "basic-rust-concurrency-benchmarks"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+criterion = "0.5.1"
+
+[[bench]]
+name = "bench"
+harness = false
